@@ -1,0 +1,27 @@
+/* Styles for Conway's Game of Life */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#gameCanvas {
+  margin: 20px auto;
+  border: 1px solid black;
+  display: block;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1rem;
+}
